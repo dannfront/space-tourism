@@ -12,7 +12,7 @@ export function dsplayMenuMobil(menuMobil,displayMenu,btnClose){
 
 export async function getData(position) {
     try {
-        const data = await fetch('../../starter-code/data.json')
+       const data = await fetch('/space-tourism/starter-code/data.json')
         const dataObj=await data.json()
         return dataObj[position]
     } catch (error) {
