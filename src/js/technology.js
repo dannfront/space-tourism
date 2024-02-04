@@ -33,7 +33,7 @@ sectionsTech.addEventListener('click',async (e)=>{
     })
     target.classList.add('border-active')
     
-    imagePreview.src=`../../starter-code/${data[index].images[imgRes]}`
+    imagePreview.src=`/space-tourism/starter-code/${data[index].images[imgRes]}`
     name.textContent=data[index].name
     description.textContent=data[index].description
     console.log(window.innerWidth);
@@ -43,9 +43,9 @@ window.addEventListener('load',()=>{
     console.log('dmsdm');
     if (window.innerWidth>=1024){
         console.log('nkn');
-        imagePreview.src=`../../starter-code/assets/technology/image-launch-vehicle-portrait.jpg`
+        imagePreview.src=`/space-tourism/starter-code/assets/technology/image-launch-vehicle-portrait.jpg`
     }else if(window.innerWidth <= 1024){
-        imagePreview.src = '../../starter-code/assets/technology/image-launch-vehicle-landscape.jpg';
+        imagePreview.src = '/space-tourism/starter-code/assets/technology/image-launch-vehicle-landscape.jpg';
 
     }
 })
@@ -55,9 +55,9 @@ window.addEventListener('load',()=>{
 window.addEventListener('resize', () => {
     if (window.innerWidth >= 1024) {
         console.log('23');
-        imagePreview.src = '../../starter-code/assets/technology/image-launch-vehicle-portrait.jpg';
+        imagePreview.src = '/space-tourism/starter-code/assets/technology/image-launch-vehicle-portrait.jpg';
     }else if(window.innerWidth < 1024){
-        imagePreview.src = '../../starter-code/assets/technology/image-launch-vehicle-landscape.jpg';
+        imagePreview.src = '/space-tourism/starter-code/assets/technology/image-launch-vehicle-landscape.jpg';
 
     }
 });
