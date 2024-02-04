@@ -22,7 +22,7 @@ const activeLinkIndex = localStorage.getItem('activeLinkIndex');
 
 function renderDataCrew(data){
     description.textContent=data.bio
-    imgPerson.src=`../../starter-code/${data.images.png}`
+    imgPerson.src=`/space-tourism/starter-code/${data.images.png}`
     namePerson.textContent=data.name
     specialty.textContent=data.role
 }
