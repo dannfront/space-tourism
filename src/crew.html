@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./output.css">
+    <script defer type="module" src="./js/crew.js"></script>
+
+    <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body
+    class="font-font-primary bg-crew-mobil bg-bottom bg-cover bg-no-repeat min-h-screen md:bg-crew-tablet lg:bg-crew-desktop">
+
+    <header class="pt-[.75rem] pb-7 md:p-0 md:relative">
+        <nav class="mx-auto w-[90%] flex justify-between items-center">
+
+            <a href="index.html" class="py-7 lg:ml-10">
+                <img class="size-10" src="../starter-code/assets/shared/logo.svg" alt="logo">
+            </a>
+
+            <button class="size-10 menu-hamburger md:hidden">
+                <img src="../starter-code/assets/shared/icon-hamburger.svg" alt="menu hamburguer">
+            </button>
+
+            <section
+                class="links-page hidden md:block md:absolute md:top-0 md:right-0 md:p-10 md:nav-md  lg:p-0 lg:w-[630px] lg:right-0 lg:justify-around lg:pl-16 lg:top-[25px]">
+                <ul class="flex gap-10 lg:gap-5">
+                    <li class="link-li  text-white md:uppercase lg:py-5 "><a class="link lg:flex lg:gap-2"
+                            href="./index.html"> <span class=" hidden lg:block lg:font-bold">00</span> home</a></li>
+                    <li class="link-li  text-white md:uppercase lg:py-5"><a class="link lg:flex lg:gap-2"
+                            href="./destination.html"> <span class=" hidden lg:block lg:font-bold">01</span>
+                            destination</a></li>
+                    <li class="link-li  text-white md:uppercase lg:py-5"><a class="link lg:flex lg:gap-2"
+                            href="./crew.html"> <span class=" hidden lg:block lg:font-bold">02</span> crew</a></li>
+                    <li class="link-li btn-rezise text-white md:uppercase lg:py-5"><a class="link lg:flex lg:gap-2"
+                            href="./Technology.html"> <span class=" hidden lg:block lg:font-bold">03</span>
+                            technology</a></li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+
+
+    <h2 class="text-center text-white mb-20 text-xl md:text-left md:mx-auto md:w-[90%] md:mt-7 lg:mb-10 lg:w-[70%]">
+        <span class="opacity-25">02</span> Meet your crew</h2>
+    <section class="mx-auto w-[90%] md:flex md:flex-col-reverse lg:grid lg:grid-flow-col lg:justify-items-center">
+
+        <div class="max-w-[200px] mx-auto md:max-w-[250px] lg:col-start-2">
+            <picture class="">
+                <img class="img-person" src="../starter-code/assets/crew/image-douglas-hurley.png" alt="">
+            </picture>
+        </div>
+        <div class=" border-b-2 border-gray md:hidden"></div>
+        <div class="mt-5 md:flex md:flex-col-reverse lg:col-start-1">
+            <div class="dots flex justify-center gap-5 mb-5 md:mt-7 lg:justify-normal">
+                <button class="dots-active dot-section size-[13px] bg-white rounded-full cursor-pointer block"></button>
+                <button class="dot-section size-[13px] bg-white rounded-full cursor-pointer block"></button>
+                <button class="dot-section size-[13px] bg-white rounded-full cursor-pointer block"></button>
+                <button
+                    class="dot-section size-[13px] bg-white rounded-full cursor-pointer block menu-desktop"></button>
+            </div>
+            <div class="flex flex-col items-center lg:flex lg:flex-col lg:items-start">
+                <h3 class="uppercase specialty text-white opacity-45 md:mb-5 md:text-2xl lg:text-[32px]">Commander</h3>
+                <h1 class="name-person text-white  text-2xl md:text-[40px] md:mb-7 lg:text-[56px]">Douglas Hurley</h1>
+                <p
+                    class="description text-white text-center text-pretty mt-3 md:max-w-[458px] md:mx-auto md:w-[90%] lg:text-left lg:mx-0 lg:text-[18px]">
+                    Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut.
+                    He
+                    launched into space for the third time as commander of Crew Dragon Demo-2.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="display-menu w-[254px] hidden absolute top-0 h-screen right-0 backdrop-blur-2xl md:hidden">
+
+        <picture class="btn-close postion-btn-close">
+            <img src="../starter-code/assets/shared/icon-close.svg" alt="close">
+        </picture>
+        <div class="w-[80%] mx-auto pt-24">
+            <nav class=" flex flex-col gap-5">
+                <a class="text-white" href="./index.html"> <span class="font-bold">00</span> Home</a>
+                <a class="text-white" href="./destination.html"> <span class="font-bold">01</span> Destination</a>
+                <a class="text-white " href="./crew.html"> <span class="font-bold">02</span> Crew</a>
+                <a class="text-white" href="./Technology.html"> <span class="font-bold">03</span> Technology</a>
+            </nav>
+        </div>
+
+    </section>
+</body>
+
+</html>

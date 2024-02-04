@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./output.css">
+  <script defer type="module" src="./js//technology.js"></script>
+
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body
+  class="font-font-primary bg-technology-mobil bg-bottom bg-cover bg-no-repeat min-h-screen md:bg-technology-tablet lg:bg-technology-desktop">
+  <header class="pt-[.75rem] pb-7 md:p-0 md:relative">
+    <nav class="mx-auto w-[90%] flex justify-between items-center">
+
+      <a href="index.html" class="py-7 lg:ml-10">
+        <img class="size-10" src="../starter-code/assets/shared/logo.svg" alt="logo">
+      </a>
+
+      <button class="size-10 menu-hamburger md:hidden">
+        <img src="../starter-code/assets/shared/icon-hamburger.svg" alt="menu hamburguer">
+      </button>
+
+      <section
+        class="links-page hidden md:block md:absolute md:top-0 md:right-0 md:p-10 md:nav-md  lg:p-0 lg:w-[630px] lg:right-0 lg:justify-around lg:pl-16 lg:top-[25px]">
+        <ul class="flex gap-10 lg:gap-5">
+          <li class="link-li  text-white md:uppercase lg:py-5 "><a class="link lg:flex lg:gap-2" href="./index.html">
+              <span class=" hidden lg:block lg:font-bold">00</span> home</a></li>
+          <li class="link-li  text-white md:uppercase lg:py-5"><a class="link lg:flex lg:gap-2"
+              href="./destination.html"> <span class=" hidden lg:block lg:font-bold">01</span> destination</a></li>
+          <li class="link-li  text-white md:uppercase lg:py-5"><a class="link lg:flex lg:gap-2" href="./crew.html">
+              <span class=" hidden lg:block lg:font-bold">02</span> crew</a></li>
+          <li class="link-li btn-rezise text-white md:uppercase lg:py-5"><a class="link lg:flex lg:gap-2"
+              href="./Technology.html"> <span class=" hidden lg:block lg:font-bold">03</span> technology</a></li>
+        </ul>
+      </section>
+    </nav>
+  </header>
+
+  <h2 class="mx-auto w-[90%] uppercase text-center text-white mb-20 md:text-left md:mt-7 lg:w-[70%]"> <span
+      class="opacity-25">03 </span>SPACE LAUNCH 101</h2>
+
+  <section class="lg:flex lg:flex-row-reverse lg:items-center">
+    <picture>
+      <img class="image-preview lg:h-[450px]" src="../starter-code/assets/technology/image-launch-vehicle-landscape.jpg"
+        alt="image preview">
+    </picture>
+
+    <div class="mx-auto w-[90%] lg:flex lg:justify-center lg:items-center lg:gap-5">
+      <div class="section-technology flex justify-center gap-5 my-10 lg:flex-col">
+        <button
+          class="sections size-10 border-active rounded-full flex justify-center items-center md:size-[60px]">1</button>
+        <button
+          class="sections size-10 border-opacity rounded-full flex justify-center items-center md:size-[60px]">2</button>
+        <button
+          class="sections size-10 border-opacity rounded-full flex justify-center items-center md:size-[60px]">3</button>
+      </div>
+      <div class="lg:flex lg:flex-col lg:items-start">
+        <h3 class="uppercase text-center text-secondary text-sm md:mb-5">THE TERMINOLOGY…</h3>
+        <h1 class="name uppercase text-center text-white text-2xl md:text-[40px]">LAUNCH VEHICLE</h1>
+        <p
+          class="mx-auto w-[90%] text-center text-white description text-pretty mt-3 md:w-[458px] md:mt-5 lg:text-left lg:text-[18px]">
+          A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface
+          to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation.
+          Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="display-menu w-[254px] hidden absolute top-0 h-screen right-0 backdrop-blur-2xl md:hidden">
+
+    <picture class="btn-close postion-btn-close">
+      <img src="../starter-code/assets/shared/icon-close.svg" alt="close">
+    </picture>
+    <div class="w-[80%] mx-auto pt-24">
+      <nav class=" flex flex-col gap-5">
+        <a class="text-white" href="./index.html"> <span class="font-bold">00</span> Home</a>
+        <a class="text-white" href="./destination.html"> <span class="font-bold">01</span> Destination</a>
+        <a class="text-white " href="./crew.html"> <span class="font-bold">02</span> Crew</a>
+        <a class="text-white" href="./Technology.html"> <span class="font-bold">03</span> Technology</a>
+      </nav>
+    </div>
+
+  </section>
+</body>
+
+</html>

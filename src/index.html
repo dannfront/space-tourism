@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./output.css">
+  <script type="module" src="./js/script.js"></script>
+
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body
+  class="font-font-primary bg-home-mobil bg-bottom bg-cover bg-no-repeat min-h-screen md:bg-home-tablet lg:bg-home-desktop">
+
+  <header class="pt-[.75rem] pb-7 md:p-0 md:relative">
+    <nav class="mx-auto w-[90%] flex justify-between items-center">
+
+      <a href="index.html" class="py-7 lg:ml-10">
+        <img class="size-10" src="../starter-code/assets/shared/logo.svg" alt="logo">
+      </a>
+
+      <button class="size-10 menu-hamburger md:hidden">
+        <img src="../starter-code/assets/shared/icon-hamburger.svg" alt="menu hamburguer">
+      </button>
+
+      <section
+        class="links-page hidden md:block md:absolute md:top-0 md:right-0 md:p-10 md:nav-md  lg:p-0 lg:w-[630px] lg:right-0 lg:justify-around lg:pl-16 lg:top-[25px]">
+        <ul class="flex gap-10 lg:gap-5">
+          <li class="link-li  text-white md:uppercase lg:py-5 "><a class="link lg:flex lg:gap-2" href="./index.html"> <span
+                class=" hidden lg:block lg:font-bold">00</span> home</a></li>
+          <li class="link-li  text-white md:uppercase lg:py-5"><a class="link lg:flex lg:gap-2" href="./destination.html"> <span
+                class=" hidden lg:block lg:font-bold">01</span> destination</a></li>
+          <li class="link-li  text-white md:uppercase lg:py-5"><a class="link lg:flex lg:gap-2" href="./crew.html"> <span
+                class=" hidden lg:block lg:font-bold">02</span> crew</a></li>
+          <li class="link-li btn-rezise text-white md:uppercase lg:py-5"><a class="link lg:flex lg:gap-2" href="./Technology.html"> <span
+                class=" hidden lg:block lg:font-bold">03</span> technology</a></li>
+        </ul>
+      </section>
+    </nav>
+  </header>
+
+
+  <div class="flex flex-col justify-between items-center gap-10 lg:flex-row lg:items-end lg:justify-around lg:gap-40">
+
+    <div class="">
+
+      <div class="md:mt-14">
+        <h1 class=" text-center text-secondary m-0 md:text-[20px] lg:text-left">So, you want to travel to</h1>
+        <h2 class=" text-secondary text-center uppercase text-[80px] m-0 md:text-[150px] lg:text-left">space</h2>
+      </div>
+
+      <p class="text-center text-secondary leading-6 text-[16px] mb-5 text-pretty md:w-[444px] lg:text-left lg:text-lg">
+        Let’s face it; if you want to go to space, you might as well genuinely go to
+        outer space and not hover kind of on the edge of it. Well sit back, and relax
+        because we’ll give you a truly out of this world experience!
+      </p>
+    </div>
+
+    <a href="./destination.html"
+      class="hover:btn-home duration-300 rounded-full bg-white flex justify-center items-center w-44 h-44 text-xl">
+      <p class="uppercase">explore</p>
+    </a>
+  </div>
+
+  </section>
+
+  <section class="display-menu w-[254px] hidden absolute top-0 h-screen right-0 backdrop-blur-2xl md:hidden">
+
+    <picture class="btn-close postion-btn-close">
+      <img src="../starter-code/assets/shared/icon-close.svg" alt="close">
+    </picture>
+    <div class="w-[80%] mx-auto pt-24">
+      <nav class=" flex flex-col gap-5">
+        <a class="text-white" href="./index.html"> <span class="font-bold">00</span> Home</a>
+        <a class="text-white" href="./destination.html"> <span class="font-bold">01</span> Destination</a>
+        <a class="text-white " href="./crew.html"> <span class="font-bold">02</span> Crew</a>
+        <a class="text-white" href="./Technology.html"> <span class="font-bold">03</span> Technology</a>
+      </nav>
+    </div>
+
+  </section>
+
+</body>
+
+</html>

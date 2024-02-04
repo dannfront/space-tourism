@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap'); */
+
+@layer components{
+    .postion-btn-close {
+        position: absolute;
+        top: 26px;
+        right: 20%;
+    }
+
+    .blur-background {
+        background: rgba(255, 255, 255, 0.04);
+
+        backdrop-filter: blur(40.774227142333984px);
+    }
+
+    .dots-active {
+        opacity:.5;
+        transition: all .3s ease-in-out;
+    }
+
+    .border-opacity {
+        @apply text-white border border-white border-opacity-25 w-10 bg-transparent;
+    }
+
+    .border-active {
+        @apply   bg-white text-black
+    }
+
+    .btn-home{
+        box-shadow: 0px 0px 0px 40px #979797;
+        transition: all .3s ease-in-out;
+    }
+
+    .nav-md{
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(40.774227142333984px);
+    }
+
+    .link-page-active{
+        @apply lg:border-b-4 lg:border-white;
+    }
+
+}

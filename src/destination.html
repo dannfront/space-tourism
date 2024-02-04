@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./starter-code/assets/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./output.css">
+  <script src="./js/destination.js" type="module"></script>
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body class="font-font-primary bg-destiantion-mobil bg-bottom bg-cover bg-no-repeat min-h-screen md:bg-destiantion-tablet lg:bg-destiantion-desktop">
+  <header class="pt-[.75rem] pb-7 md:p-0 md:relative">
+    <header class="pt-[.75rem] pb-7 md:p-0 md:relative">
+      <nav class="mx-auto w-[90%] flex justify-between items-center">
+  
+        <a href="index.html" class="py-7 lg:ml-10">
+          <img class="size-10" src="../starter-code/assets/shared/logo.svg" alt="logo">
+        </a>
+  
+        <button class="size-10 menu-hamburger md:hidden">
+          <img src="../starter-code/assets/shared/icon-hamburger.svg" alt="menu hamburguer">
+        </button>
+  
+        <section
+          class="links-page hidden md:block md:absolute md:top-0 md:right-0 md:p-10 md:nav-md  lg:p-0 lg:w-[630px] lg:right-0 lg:justify-around lg:pl-16 lg:top-[25px]">
+          <ul class="flex gap-10 lg:gap-5">
+            <li class="link-li  text-white md:uppercase lg:py-5 "><a class="link lg:flex lg:gap-2" href="./index.html"> <span
+                  class=" hidden lg:block lg:font-bold">00</span> home</a></li>
+            <li class="link-li  text-white md:uppercase lg:py-5"><a class="link lg:flex lg:gap-2" href="./destination.html"> <span
+                  class=" hidden lg:block lg:font-bold">01</span> destination</a></li>
+            <li class="link-li  text-white md:uppercase lg:py-5"><a class="link lg:flex lg:gap-2" href="./crew.html"> <span
+                  class=" hidden lg:block lg:font-bold">02</span> crew</a></li>
+            <li class="link-li btn-rezise text-white md:uppercase lg:py-5"><a class="link lg:flex lg:gap-2" href="./Technology.html"> <span
+                  class=" hidden lg:block lg:font-bold">03</span> technology</a></li>
+          </ul>
+        </section>
+      </nav>
+    </header>
+
+
+  <h2 class="text-center text-white mb-20 text-xl md:text-left md:mx-auto md:w-[90%] lg:w-[70%]"> <span class="opacity-25">01</span> Pick your
+    destination</h2>
+  <section class="mx-auto w-[90%] lg:flex lg:items-start">
+
+
+    <section class="max-w-[200px] mx-auto w-[90%] md:max-w-[250px] lg:max-w-[320px]">
+
+      <picture>
+        <img class="img-destination" src="../../starter-code/assets/destination/image-moon.png" alt="">
+      </picture>
+
+    </section>
+
+
+    <div>
+
+      <nav class="destinations-container flex justify-center gap-10 mt-10 text-white">
+        <p class="destinations uppercase cursor-pointer border-b-2 border-white">moon</p>
+        <p class="destinations uppercase cursor-pointer">mars</p>
+        <p class="destinations uppercase cursor-pointer">europa</p>
+        <p class="destinations uppercase cursor-pointer">titan</p>
+      </nav>
+
+      <section class="mx-auto w-[90%] mt-5 text-center">
+        <h1 class="title-destination uppercase text-white text-[56px] m-0 md:text-[80px]">moon</h1>
+        <p class="mx-auto w-[90%] about-destination text-white text-pretty md:w-[570px] lg:text-[18px] lg:text-left">
+        </p>
+      </section>
+
+
+      <section class="mx-auto w-[90%] my-10 text-center border-t-2 border-white md:flex md:justify-evenly">
+        <div class="my-5">
+
+          <h3 class="uppercase text-white text-[14px]">AVG. DISTANCE</h3>
+          <p class="distance-destination text-white text-[30px]">
+          </p>
+        </div>
+
+        <div class="my-5">
+          <h3 class="uppercase text-white text-[14px]">Est. travel time</h3>
+          <p class="travel-destination text-white text-[30px]">
+          </p>
+        </div>
+      </section>
+    </div>
+  </section>
+
+
+  <section class="display-menu w-[254px] hidden absolute top-0 h-screen right-0 backdrop-blur-2xl md:hidden">
+
+    <picture class="btn-close postion-btn-close">
+      <img src="../starter-code/assets/shared/icon-close.svg" alt="close">
+    </picture>
+    <div class="w-[80%] mx-auto pt-24">
+      <nav class=" flex flex-col gap-5">
+        <a class="text-white" href="./index.html"> <span class="font-bold">00</span> Home</a>
+        <a class="text-white" href="./destination.html"> <span class="font-bold">01</span> Destination</a>
+        <a class="text-white " href="./crew.html"> <span class="font-bold">02</span> Crew</a>
+        <a class="text-white" href="./Technology.html"> <span class="font-bold">03</span> Technology</a>
+      </nav>
+    </div>
+
+  </section>
+</body>
+
+</html>
